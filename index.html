@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container-fluid p-0 m-0">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-css">
+        <a class="navbar-brand" href="#"
+          ><img src="assets/logo.png" class="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a
+                class="nav-link item"
+                href="#"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+                >Home</a
+              >
+            </li>
+            
+            <!-- <li class="nav-item">
+              <a class="nav-link item" href="#" data-aos="fade-up"  data-aos-easing="ease-in-out"
+              data-aos-delay="300">Contact Me</a>
+            </li> -->
+            <li class="nav-item">
+              <a
+                class="nav-link item"
+                href="#works"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="350"
+                data-aos-duration="1000"
+                >Works</a
+              >
+            </li>
+            <li class="nav-item">
+                <a
+                  class="nav-link item"
+                  href="#about"
+                  data-aos="fade-up"
+                  data-aos-easing="ease-in-out"
+                  data-aos-delay="500"
+                  data-aos-duration="1000"
+                  >About</a
+                >
+              </li>
+            <li class="nav-item">
+              <a
+                class="nav-link item"
+                href="#current"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="650"
+                data-aos-duration="1000"
+                >Products</a
+              >
+            </li>
+          </ul>
+        </div>
+        <button class="btn btn-primary talk"  id="talk">Let's Talk!</button>
+      </nav>
+
+      <h1
+        class="heading m-3"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="300"
+        
+      >
+        Hi, I'm <span style="color: blue;">Krishna</span>. I create models that
+        deliver actionable insights and success.
+      </h1>
+
+      <div class="image mx-auto">
+        <img src="assets/anima.png" class="image-img"  data-aos="zoom-in" data-aos-duration="700" data-aos-delay="200"/>
+      </div>
+
+      <div class="works" id="works">
+        <div class="black" style="background-color: black">
+          <div class="cards" data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="200"
+          data-aos-duration="500">
+            <img src="assets/brain.png" class="work-images" />
+            <h4>ML research intern</h4>
+            <div class="faded-text">6+ months Experience</div>
+          </div>
+          <div class="cards" data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="500"
+          data-aos-duration="500">
+            <img src="assets/ntl_png.png" class="work-images" />
+            <h4>AIML researcher</h4>
+            <div class="faded-text">6+ months Experience</div>
+          </div>
+          <div class="cards" data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="700"
+          data-aos-duration="500">
+            <img src="assets/web.png" class="work-images" />
+            <h4>SindhuTheJournal</h4>
+            <div class="faded-text">6+ months Experience</div>
+          </div>
+          <div class="lottiedotl"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_ganync8t.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player></div>
+          <div class="lottiedotr"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_ganync8t.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player></div>
+
+        </div>
+        <div class="work-modal" data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="300"
+        data-aos-duration="700">
+          <h2 >
+            Want to work together and create<br />
+            amazing products with me?
+          </h2>
+          <div class="email">
+            <input
+              type="email"
+              placeholder="Type your email here"
+              class="input"
+            />
+            <button type="submit" class="btn btn-outline-primary submit">
+              Get a quote
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="about" id="about">
+        <div class="left">
+          <h2 data-aos="fade-up" data-aos-duration="750">Teaching myself a <br/><span style="color:blue">Superpower</span></h2>
+          <p data-aos="fade-up" data-aos-duration="750" data-aos-delay="300"> 
+            Machine learning is a rapidly advancing field that has the potential
+            to revolutionize the way we approach problem-solving and
+            decision-making. As the amount of data generated by society
+            continues to grow, machine learning techniques provide a powerful
+            means of extracting insights and making predictions from that data.
+            <br></br>
+            Furthermore, understanding machine learning is becoming increasingly
+            important as society becomes more reliant on automation and
+            artificial intelligence. Being able to work with and develop machine
+            learning algorithms is an important skill for anyone interested in
+            pursuing a career in data science, engineering, or computer science.
+          </p>
+          <button class="btn btn-primary blog" data-aos="fade-up" data-aos-duration="750" data-aos-delay="400">View Blog</button>
+        </div>
+        <div class="right">
+            <img src="assets/anima2.png" class="port-2"/>
+        </div>
+      </div>
+
+
+      <div class="current-works col-sm-12 d-flex flex-column" id="current">
+        <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"><b>What I'm working on</b></h1>
+        <div class="faded-text" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">Get my latest research & deep learning models</div>
+      <div class="current-works-cards">
+        <div class="current-works-card" data-aos="zoom-in" data-aos-duration="750" data-aos-delay="300">
+            <div class="card-image">
+                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_KS2VTJka6L.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+            </div>
+            <div class="topic-name">
+                Sentimental Analysis
+            </div>
+            <div class="category">
+                NLP based
+            </div>
+        </div>
+        <div class="current-works-card" data-aos="zoom-in" data-aos-duration="750" data-aos-delay="600">
+            
+            <div class="card-image">
+                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_l0segmbm.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop  autoplay></lottie-player>
+            </div>
+            <div class="topic-name">
+                iSeeds - CNN Model
+            </div>
+            <div class="category">
+                Deep learning
+            </div>
+        </div>
+        
+        <div class="current-works-card" data-aos="zoom-in" data-aos-duration="750" data-aos-delay="900">
+            <div class="card-image" >
+                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_5rImXbDsO1.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover loop  autoplay></lottie-player>
+            </div>
+            <div class="topic-name">
+                 Custom-built Chatbot
+            </div>
+            <div class="category">
+                Rasa & Python
+            </div>
+        </div>
+      </div>
+      <div class="quote" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
+        <img src="assets/quote.png" class="apos">
+        <blockquote>"Artificial intelligence is the future, not only for Russia,
+             but for all humankind. It comes with colossal opportunities, but also
+              threats that are difficult to predict. Whoever becomes the leader in 
+              this sphere will become the ruler of the world."</blockquote>
+              <div class="quote-title">
+                <b>McCarthy</b>
+                <div class="faded-text" style="font-size: 1rem; font-weight: lighter;">President</div>
+              </div>
+      </div>
+<!-- <div class="blur-circle">
+    <img src="assets/blur.png">
+</div> -->
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            
+            <div class="logo"><img src="assets/logo.png" class="logo-k"></div>
+        <div class="icons">
+            <a href="" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/kyathikrishna/" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="500"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/sai-krishna-vishnumolakala-462718203/" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/SaiKrishna-KK"><i class="bi bi-github" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="500"></i></a>
+        </div>
+        <lottie-player id="lottie"src="https://assets10.lottiefiles.com/packages/lf20_9NxFrGo71i.json"  background="transparent"  speed="1"  style="width: 170px; height: 170px;"  loop  autoplay></lottie-player>
+        
+        </div>
+        <p style="color: rgb(183, 183, 183);">Copyright © 2022 | All rights reserved</p>
+
+    </div>
+
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+  </body>
+</html>

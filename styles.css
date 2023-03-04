@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-css{
+    background-color: white!important;
+}
+.logo{
+    width: 150px;
+    margin-left: 30px;
+    /* margin-left: 30px; */
+}
+.item{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    padding: 0 80px;
+    margin-bottom: 0;margin-top: 0;
+}
+.image{
+    display: flex;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+}
+.image-img{
+    width: 100%;
+    padding: 0 20%;
+}
+
+.item:hover{
+    scale: 1.2;
+}
+ul li{
+    padding-left: 20px;
+    transition: 0.2s ease-in-out!important;
+}ul li:hover{
+    scale: 1.1;
+    transition: 0.2s linear;
+}
+.black{
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    padding-bottom:220px ;
+
+}
+.card img{
+    width: 50px;
+}
+.cards{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.faded-text{
+    color: gray;
+}
+#talk{
+    border-radius:20px ;
+    margin-right: 30px;
+    transition: 0.2s ease-in-out;
+}
+#talk::before{
+        width: 100%;
+        height: 0%;
+        transform: translate(-50%,-50%) rotate(45deg);      
+}
+#talk:hover::before{
+    height: 380%;
+}
+.talk:hover{
+    outline: #325bde;
+    background-color: white;
+    color: #325bde;
+}
+.work-images{
+    width: 60px;
+    margin: 20px;
+}
+.work-modal{
+    background-color: #325bde;
+    padding: 80px;
+    margin: 50px;
+    position: relative;
+    bottom: 180px;
+    text-align: center;
+    color: white;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.work-modal h2{
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.input{
+    background-color: #273976;
+    width: 550px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    padding: 0 30px ;
+    
+}
+::placeholder{
+    color: rgb(222, 222, 222);
+}
+.email button{
+    background-color: white;
+    border-radius: 30px;
+    transition: 0.2s linear;
+    position: relative;
+    font-weight: bold;
+    right: 123px;
+    width: 120px;
+    z-index: 2;
+    height:45px ;
+    border: none;
+}
+.email button:hover{
+    background-color: #4066E0;
+    color: white;
+}
+.about{
+    display: flex;
+    margin: 80px ;
+    margin-right: 0;
+    margin-top: 0;
+}
+.port-2{
+    width: 700px;
+    
+}
+.about h2{
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.blog{
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 30px !important;
+    transition: 0.2s linear;
+}
+
+.blog:hover{
+    background-color: white;
+    outline: #325bde;
+    color:#4066E0;
+}
+
+.current-works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.current-works-cards{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+.current-works-card{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    background: linear-gradient(to top, #cbcfff, transparent);
+    border-radius: 30px;
+    box-shadow: #325ade2a 10px 10px 20px;
+}
+.category{
+    color: #325bde;
+}
+.lottiedotl{
+    position: absolute;
+   right: 50px;
+   z-index: 3;
+}
+.lottiedotr{
+    position: absolute;
+   left: -50px;
+   z-index: 3;
+}
+.quote{
+    margin: 80px;
+    border-radius: 30px;
+    background-color: #e6e8ff;
+    padding: 50px 120px;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: #09175e2a 10px 10px 20px;
+}
+.quote-title{
+    font-size: 1.5rem;
+    font-weight:700;
+}
+.apos{
+    width: 35px;
+    margin-bottom:50px ;
+}
+.footer{
+    background-color: #102771;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(103.65deg, #000A64 30.71%, rgba(217, 217, 217, 0) 255.13%);
+    
+    
+}
+.footer-top{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer i{
+    color: white;
+    font-size:2rem;
+    padding: 10px;
+}
+.logo-k{
+    width: 150px;
+}
+#lottie{
+    width: 50px;
+}
+/* .blur-circle{
+    position: absolute;
+    top: 100px;
+} */
+
+.icons{
+    transition: 0.2s linear;
+}
+.icons a:hover{
+    scale: 1.1;
+}
